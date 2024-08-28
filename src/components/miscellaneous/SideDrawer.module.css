@@ -13,6 +13,16 @@
   color: #333;
 }
 
+.Bellify {
+  padding: 4px;
+  border-radius: 2px;
+  transition: all 0.5s;
+}
+
+.Bellify:hover {
+  background-color: #c4bdbd;
+}
+
 .searchContainer {
   /* flex: 1; */
   /* margin: 0 20px; */

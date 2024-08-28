@@ -4,10 +4,8 @@ import { useChatContext } from "../../context/ChatProvider";
 import ProfileInfo from "../ProfileInfo";
 import ProfileModal from "../ProfileModal";
 import ModalDrawer from "../ModalDrawer";
-import { Effect } from "react-notification-badge";
-import NotificationBadge from "react-notification-badge";
 import NotificationTab from "../NotificationTab";
-
+import NotificationBadge from "./NotificationBadge";
 import Axios from "axios";
 
 function SideDrawer() {
@@ -67,12 +65,13 @@ function SideDrawer() {
         <div className={styles.logo}>Talk-A-Tive</div>
         <div className={styles.profileContainer}>
           {/* Notification bell icon */}
-          <span onClick={handleNotificationBell} style={{ cursor: "pointer" }}>
+          <span
+            onClick={handleNotificationBell}
+            className={styles.Bellify}
+            style={{ cursor: "pointer" }}
+          >
             <span className={styles.bellNotify}>
-              <NotificationBadge
-                count={notification.length}
-                effect={Effect.SCALE}
-              />
+              <NotificationBadge count={notification.length} effect="SCALE" />
             </span>
             <i className="fas fa-bell"></i>
           </span>
