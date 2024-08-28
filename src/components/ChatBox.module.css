@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #19d4da;
+  border-radius: 8px;
+  padding: 16px 12px;
+}
+
+.BlankContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #19d4da;
+  border-radius: 8px;
+  padding: 16px 12px;
+}
+
+.BlankContainer p {
+  font-size: 26px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.eyeIcon {
+  font-size: 20px;
+}
+
+.chatArea {
+  flex-grow: 1;
+  position: relative;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  margin-top: 16px;
+  padding: 16px 15px;
+  overflow-y: auto;
+}
+
+.inputContainerF {
+  position: relative;
+}
+.inputField {
+  padding: 10px 15px;
+  margin-top: 12px;
+  outline: none;
+  background-color: bisque;
+  width: 97%;
+  border-radius: 8px;
+}
+
+.eyeIcon {
+  font-size: 20px;
+  color: #484b4b;
+}
+
+/* Display messages */
+.messagesContainer {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.UploadBtn {
+  position: absolute;
+  right: 40px;
+  top: 18px;
+  font-size: 20px;
+}

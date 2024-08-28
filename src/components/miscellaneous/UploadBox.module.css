@@ -1,0 +1,40 @@
+.UploadContainer {
+  position: absolute;
+  top: -136px;
+  left: 0px;
+  padding: 18px;
+  border-radius: 4px;
+  background-color: #7ef81b;
+  z-index: 2;
+}
+
+.imageBtn {
+  padding: 5px 10px;
+  background-color: bisque;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  color: black;
+  border-radius: 4px;
+}
+
+.innerModal {
+  position: relative;
+}
+
+.closeBtn {
+  position: absolute;
+  top: -13px;
+  right: -8px;
+}
+
+.imageBOX {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.imageBOX label {
+  font-size: 16px;
+  font-weight: 500;
+}

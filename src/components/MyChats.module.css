@@ -1,0 +1,86 @@
+.myChatsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  background-color: #22e4eb;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.isOnline {
+  margin-left: 5px;
+  color: green;
+}
+
+.isOffline {
+  margin-left: 5px;
+  color: red;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.header h2 {
+  font-size: 20px;
+}
+
+.newGroupButton {
+  background-color: #fff;
+  border: none;
+  color: #007bff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.newGroupButton:hover {
+  background-color: #e9ecef;
+}
+
+.selecChat {
+  background-color: aquamarine !important;
+}
+
+.chatList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.chatItem {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 8px 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  position: relative;
+}
+
+.chatItem span {
+  font-weight: bold;
+}
+
+.chatItem p {
+  margin: 5px 0 0;
+  color: #6c757d;
+  font-size: 0.9em;
+}
+
+.chatItem:hover {
+  background-color: #e9ecef;
+}
+
+.deleteBtn {
+  color: #8d8d8c;
+  position: absolute;
+  top: 7px;
+  right: 10px;
+}

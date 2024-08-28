@@ -1,0 +1,14 @@
+.dateContainer {
+  padding: 5px;
+  margin-left: 395px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.timeContainer {
+  margin-left: 6px;
+  font-size: 13px;
+  color: #616161;
+}
